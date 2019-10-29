@@ -7,7 +7,7 @@ Comment on 'Measure cycle time (lead time)' - Steve Pryce - https://www.redmine.
 
 This really should be a standard feature. As should time spent in each status.
 
-h1. Usage
+## Usage
 
 <pre>
 usage: kanban-readytodone.py [-h] [-d DATABASE] [-b BASE] [-p PROJECT]
@@ -31,7 +31,7 @@ optional arguments:
                         Kanban Board or (Target) Version.
 </pre>
 
-h1. Output
+## Output
 
 The script stores a cache (using TinyDB - json based) of item statuses in your kanban board and outputs a CSV like view 
 of the cycle stages and times (defaults to 'Ready' to 'Done' .. could be tweaked to do more / less)
